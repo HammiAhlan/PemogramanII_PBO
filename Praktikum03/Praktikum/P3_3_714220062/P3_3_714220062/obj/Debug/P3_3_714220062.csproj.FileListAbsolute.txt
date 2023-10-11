@@ -1,0 +1,7 @@
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\bin\Debug\P3_3_714220062.exe.config
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\bin\Debug\P3_3_714220062.exe
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\bin\Debug\P3_3_714220062.pdb
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\obj\Debug\P3_3_714220062.csproj.AssemblyReference.cache
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\obj\Debug\P3_3_714220062.csproj.CoreCompileInputs.cache
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\obj\Debug\P3_3_714220062.exe
+D:\TugasKuh\Pemograman II_PBO\Praktikum03\Praktikum\P3_3_714220062\P3_3_714220062\obj\Debug\P3_3_714220062.pdb
