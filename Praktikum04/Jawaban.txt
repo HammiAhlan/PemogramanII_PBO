@@ -1,0 +1,16 @@
+15.karena kode "Protected" 
+kode yang dimaksud Protected" berarti properti atau anggota hanya dapat diakses dari 
+kelas yang mendefinisikannya atau kelas turunannya. (myType) itu yg tidak dapat diakses mempunyai perlindungan hanya dapat diakses dari class itu sendiri atau kelas yang lain
+
+19. mengakses properti mytype dalam objek Product, tetapi dalam kelas Product_714220062 tidak ada definisi properti yang sesuai dengan nama mytype. Ini berarti bahwa objek myProduct tidak memiliki properti MyType yang dapat diakses.
+
+
+24. karena variable yang dimasukkan adalah "DVD"
+
+Bagian II 
+
+8. karena myTitle sudah digunakan pada class dan karena
+     variabel MyTitle di dalam kelas Book_714220062 meureun salah lalu
+     kesalahan dalam kelas Book_714220062, terutama dalam pengaturan properti MyTitle saat objek yang dibuat dengan konstruktor. 
+     
+12. Judul buku tampil di layar output karena objek myBook telah  Judul diberi kepada objek myBook yang sesuai saat dibuat menggunakan konstruktor Book_714220062.
