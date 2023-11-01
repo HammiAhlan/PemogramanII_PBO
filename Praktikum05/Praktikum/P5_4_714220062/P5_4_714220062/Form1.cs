@@ -41,7 +41,7 @@ namespace P5_4_714220062
             string JenisKelamin = JenisKelamin1.GetItemText(JenisKelamin1.SelectedItem);
 
 
-            //Group Kelas Box Musik
+            //Kelas Box
             if (Biola1.Checked)
             {
                 GroupKelasBox = "Biola, ";
@@ -51,10 +51,10 @@ namespace P5_4_714220062
                 GroupKelasBox = "Saxophone, ";
             }
             if (Gitar1.Checked)
-            {
-                GroupKelasBox = "Gitar1, ";
-            }
-            if (Konduktor1.Checked)
+                {
+                    GroupKelasBox = "Gitar1, ";
+                }
+                if (Konduktor1.Checked)
             {
                 GroupKelasBox = "Konduktor, ";
             }
