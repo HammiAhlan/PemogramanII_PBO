@@ -93,12 +93,55 @@ namespace P6_3_714220062
 
         private void Angka1_TextChanged(object sender, EventArgs e)
         {
-            if (txtAngka.Text == "") ;
+            if (txtAngka2.Text == "" && txtAngka1.Text == "")
+            {
+                epWarning.SetError(txtAngka1, "Teksbox Angka2 tidak boleh kosong!");
+                epWrong.SetError(txtAngka1, "");
+                epCorrect.SetError(txtAngka1, "");
+
+                epWarning.SetError(txtAngka2, "Teksbox Angka2 tidak boleh kosong!");
+                epWrong.SetError(txtAngka2, "");
+                epCorrect.SetError(txtAngka2, "");
+            }
+            else
+            {
+                if ((txtAngka1.Text).All(Char.IsNumber))
+                {
+                    epWarning.SetError(txtAngka1, "");
+                    epWrong.SetError(txtAngka1, "");
+                    epCorrect.SetError(txtAngka1, "Betul");
+                }
+                else
+                {
+                    epWarning.SetError(txtAngka1, "");
+                    epWrong.SetError(txtAngka1, "Imputan hanya boleh Angka !");
+                    epCorrect.SetError(txtAngka1, "");
+                }
+            }
+
+
         }
 
         private void Angka2_TextChanged(object sender, EventArgs e)
         {
+            if (int.TryParse(txtAngka1.Text, out int Angka1) && int.TryParse(txtAngka2.Text, out int Angka2))
+            {
 
+                if (Angka1 > Angka2)
+                {
+                    epWarning.SetError(txtAngka2, "");
+                    epWrong.SetError(txtAngka2, "");
+                    epCorrect.SetError(txtAngka2, "Angka1 Lebih Besar dari Angka2");
+                }
+                else
+                {
+                    epWarning.SetError(txtAngka2, "");
+                    epWrong.SetError(txtAngka2, "Angka1 tidak Lebih Besar dari Angka2");
+                    epCorrect.SetError(txtAngka2, "");
+                }
+
+
+            }
         }
     }
 }
