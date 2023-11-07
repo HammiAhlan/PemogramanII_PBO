@@ -90,6 +90,7 @@
             this.txtNama.Name = "txtNama";
             this.txtNama.Size = new System.Drawing.Size(200, 20);
             this.txtNama.TabIndex = 3;
+            this.txtNama.TextChanged += new System.EventHandler(this.txtNama_TextChanged);
             // 
             // JenisKelamin1
             // 
@@ -102,6 +103,7 @@
             this.JenisKelamin1.Size = new System.Drawing.Size(200, 21);
             this.JenisKelamin1.TabIndex = 4;
             this.JenisKelamin1.Text = "Pilih Jenis Kelamin";
+            this.JenisKelamin1.SelectedIndexChanged += new System.EventHandler(this.JenisKelamin1_SelectedIndexChanged);
             // 
             // TanggalWaktu
             // 

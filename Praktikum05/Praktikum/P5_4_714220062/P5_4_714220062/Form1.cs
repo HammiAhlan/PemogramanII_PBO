@@ -142,5 +142,15 @@ namespace P5_4_714220062
         {
 
         }
+
+        private void JenisKelamin1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNama_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

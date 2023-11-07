@@ -106,7 +106,7 @@ namespace P6_3_714220062
             else
             {
                 if ((txtAngka1.Text).All(Char.IsNumber))
-                {
+                {   
                     epWarning.SetError(txtAngka1, "");
                     epWrong.SetError(txtAngka1, "");
                     epCorrect.SetError(txtAngka1, "Betul");
