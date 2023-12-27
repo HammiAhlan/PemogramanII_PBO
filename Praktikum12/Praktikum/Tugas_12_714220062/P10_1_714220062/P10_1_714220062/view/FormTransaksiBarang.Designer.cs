@@ -311,7 +311,7 @@
             this.DataTransaksi.Size = new System.Drawing.Size(844, 183);
             this.DataTransaksi.TabIndex = 0;
             this.DataTransaksi.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataTransaksi_CellClick);
-            this.DataTransaksi.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.DataTransaksi_CellFormatting);
+            this.DataTransaksi.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataTransaksi_CellContentClick);
             // 
             // groupBox2
             // 

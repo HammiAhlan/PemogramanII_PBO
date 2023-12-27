@@ -207,6 +207,11 @@ namespace P10_1_714220062.view
         {
             totalharga();
         }
+
+        private void DataTransaksi_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
        
 }

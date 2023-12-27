@@ -128,16 +128,7 @@ namespace P10_1_714220062.view
 
         private void DataBarang_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
         {
-            if (DataBarang.Columns[e.ColumnIndex].Name == "harga")
-            {
 
-                if (e.Value != null && double.TryParse(e.Value.ToString(), out double cellValue))
-                {
-
-                    e.Value = string.Format("Rp. {0:N0}", cellValue);
-                    e.FormattingApplied = true;
-                }
-            }
         }
     }
 }
